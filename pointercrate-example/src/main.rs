@@ -228,7 +228,7 @@ fn page_configuration() -> PageConfiguration {
         br;
         "All rights reserved"
         br;
-        "Arma List is an independent Geometry Dash demon list and is not affiliated with RobTop Games or Pointercrate."ate.com"
+        "Arma List is an independent Geometry Dash demon list and is not affiliated with RobTop Games or Pointercrate."
     })
     // Add a column with links for various list-related highlights
     .with_column(FooterColumn::LinkList {
@@ -246,12 +246,9 @@ fn page_configuration() -> PageConfiguration {
         ],
     })
     // Some links to social media, for example your twitter
-    .with_link("https://twitter.com/stadust1971", tr("footer-tweet.developer"));
 
     // Stitching it all together into a page configuration
-    PageConfiguration::new("<your website name here>", nav_bar, footer)
-        // Used for the HTML "author" meta tag
-        .author("your name")
-        // Used for the HTML "keywords" meta tag
-        .keywords("Your SEO keywords here")
+    PageConfiguration::new("Arma List", nav_bar, footer)
+    .author("Arma List")
+    .keywords("Arma List, Geometry Dash, Demon List, Demonlist, GD")
 }
