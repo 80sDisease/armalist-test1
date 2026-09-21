@@ -28,6 +28,12 @@ header nav .nav-icon {
   align-items: center;
 }
 
+header nav .nav-icon img {
+  height: 55px;
+  width: auto;
+  object-fit: contain;
+}
+
 header nav .nav-item {
   height: 60px;
 
