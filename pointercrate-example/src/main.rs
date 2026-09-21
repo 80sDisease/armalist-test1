@@ -224,11 +224,11 @@ fn page_configuration() -> PageConfiguration {
     // displayed below it, side-by-side, and potentially some social media links to
     // your team
     let footer = Footer::new(html! {
-        "© Copyright <year> <your website>"
+        "© Copyright 2026 Arma List"
         br;
         "All rights reserved"
         br;
-        "<your website> and <your demonlist> are in no way affiliated with RobTopGamesAB ® or pointercrate.com"
+        "Arma List is an independent Geometry Dash demon list and is not affiliated with RobTop Games or Pointercrate."ate.com"
     })
     // Add a column with links for various list-related highlights
     .with_column(FooterColumn::LinkList {
