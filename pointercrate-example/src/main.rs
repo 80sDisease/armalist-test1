@@ -244,7 +244,7 @@ fn page_configuration() -> PageConfiguration {
                 tr("footer-demonlist.legacy-list"),
             ),
         ],
-    })
+    });
     // Some links to social media, for example your twitter
 
     // Stitching it all together into a page configuration
